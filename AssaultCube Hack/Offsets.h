@@ -1,0 +1,49 @@
+#ifndef OFFSETS_H
+#define OFFSETS_H
+
+//Functions
+#define OFFSET_GETWEAPONSTR        0x461820
+#define OFFSET_CALLVOTE            0x428640
+#define OFFSET_SCALLVOTE           0x428860
+#define OFFSET_SETVAR              0x464FE0
+#define OFFSET_ISVISIBLE		   0x48ABD0 
+#define OFFSET_TRACELINE           0x48A310
+#define OFFSET_GL_DRAWHUD          0x40AAF0
+#define OFFSET_HUDOUTF             0x4090F0 
+#define OFFSET_DRAWLINE			   0x4045F0
+#define OFFSET_DRAWBLENDBOX        0x404B30
+#define OFFSET_DYNFOV              0x405330
+#define OFFSET_TOSERVER            0x420210
+#define OFFSET_SENDMSG             0x4204B0
+#define OFFSET_GIVEDAMAGE          0x4269F0
+#define OFFSET_SENDKILL            0x426C60		
+#define OFFSET_RENDERSPOTICON      0x405020
+#define OFFSET_ENGINE_DRAWTEXT     0x41A150
+#define OFFSET_GUN_ATTACK          0x463600
+#define OFFSET_GL_DRAWHUD_MIDFUNC  0x40C375
+
+//Variables
+#define OFFSET_GAMEMODE            0x50F49C
+#define OFFSET_LASTMILLIS          0x509EAC
+#define OFFSET_ENTITYLIST          0x510118
+#define OFFSET_TOGGLEEDIT          0x44C9B0
+#define OFFSET_EDITMODE            0x50A1AB
+#define OFFSET_FOVY                0x501BAC
+#define OFFSET_ASPECT              0x501BB0
+#define OFFSET_SCREENSETTINGS      0x510C94
+#define OFFSET_GAME                0x50F45C 
+#define OFFSET_MVPMATRIX           0x501AE8
+#define OFFSET_MVMATRIX            0x501B28
+#define OFFSET_PROJMATRIX          0x501BB8 
+#define OFFSET_CURRENTMAPNAME      0x509EC0 //char[16]
+#define OFFSET_CURRENTTEXTFIELD    0x4FEC18
+#define OFFSET_DIRECTCURRENTPLAYER 0x509B74
+#define OFFSET_PATCHRECOIL         0x463786
+#define OFFSET_SFACTOR			   0x505bb4
+#define OFFSET_WORLD			   0x50a1f8
+#define OFFSET_BOUNCEENTS		   0x510a28
+
+
+
+
+#endif

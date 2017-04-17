@@ -1,0 +1,13 @@
+# Visual Studio 2015 Gitignore - A200K
+
+*.pdb
+*.ipdb
+*.obj
+*.iobj
+*.tlog
+*.db
+*.aps
+*.user
+*.tmp
+.vs/
+Release/
