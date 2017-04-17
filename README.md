@@ -6,4 +6,4 @@ ReClass 2011 (DrUnKeN ChEeTaH) <br>
 AssaultCube (http://assault.cubers.net/) <br>
 <br>
 Screenshot:
-<img src="http://puu.sh/kI49r/078b0394a3.png"></img>
+<img src="http://i.imgur.com/PxanSHK.jpg"></img>
