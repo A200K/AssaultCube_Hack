@@ -427,9 +427,6 @@ void OnRenderFrame( )
 					Vec3 vScreen;
 					if( GameFunctions::WorldToScreen( vPos, &vScreen ) )
 					{
-						if( !pEntity->spawned )
-							continue;
-
 						//Entities seem to spawn right above the gound, so the actual entity pos might be lower than this, but if you press E you will see the actual entity point, too lazy to calculate the real Z pos.
 
 						if( pEntity->type == I_HEALTH )
