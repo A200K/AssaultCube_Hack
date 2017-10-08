@@ -49,6 +49,5 @@ namespace RenderFunctions
 		//Content
 		DrawRect( x + 1, y + 1, x + ( w * health ) - 1, y + h - 1, color );
 	}
-
 }
 

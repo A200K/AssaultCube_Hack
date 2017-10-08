@@ -4,6 +4,8 @@
 #include <windows.h>
 #include <math.h>
 
+#pragma warning( disable : 4244 )
+
 #include "Offsets.h"
 #include "Enums.h"
 #include "Utils.h"

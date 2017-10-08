@@ -4,7 +4,6 @@
 #include <GL/GL.h>
 #pragma comment( lib, "OPENGL32.lib" )
 
-
 void PreRenderFrame( )
 {
 	glPushMatrix( );
@@ -23,7 +22,6 @@ void PreRenderFrame( )
 	glPopMatrix( );
 
 }
-
 
 DWORD dwDrawHudJmpBack = NULL;
 

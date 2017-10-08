@@ -32,6 +32,4 @@ namespace RenderFunctions
 	void DrawHealthBar( int x, int y, int w, int h, float health, Color32 color );
 }
 
-
-
 #endif

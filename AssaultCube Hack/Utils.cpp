@@ -27,7 +27,7 @@ namespace Utils
 		*reinterpret_cast< BYTE* >( reinterpret_cast< DWORD >( pLocation ) ) = 0xE9;
 		*reinterpret_cast< DWORD* >( reinterpret_cast< DWORD >( pLocation ) + 1 ) = reinterpret_cast< DWORD >( pDetour ) - ( reinterpret_cast< DWORD >( pLocation ) + 5 );
 
-		for( int i = 5; i < dwLength; i++ )
+		for( size_t i = 5; i < dwLength; i++ )
 			*reinterpret_cast< BYTE* >( reinterpret_cast< DWORD >( pLocation ) + i ) = 0x90;
 
 		VirtualProtect( pLocation, dwLength, dwOldProtection, NULL );
@@ -40,7 +40,7 @@ namespace Utils
 		DWORD dwOldProtect = NULL;
 		if( VirtualProtect( pMemory, dwLength, PAGE_EXECUTE_READWRITE, &dwOldProtect ) )
 		{
-			for( int i = 0; i < dwLength; i++ )
+			for( size_t i = 0; i < dwLength; i++ )
 				*reinterpret_cast< BYTE* >( reinterpret_cast< DWORD >( pMemory ) + i ) = *reinterpret_cast< BYTE* >( reinterpret_cast< DWORD >( pSource ) + i );
 
 			VirtualProtect( pMemory, dwLength, dwOldProtect, 0 );

@@ -43,7 +43,4 @@
 #define OFFSET_WORLD			   0x50a1f8
 #define OFFSET_BOUNCEENTS		   0x510a28
 
-
-
-
 #endif

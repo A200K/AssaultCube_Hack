@@ -22,7 +22,6 @@ namespace GameFunctions
 
 	extern void( *GiveDamage )( int damage, Player *target, Player *actor, int gun, bool gib, bool local );
 
-
 	//Functions
 	bool GotTeamMates( );
 
@@ -44,7 +43,5 @@ namespace GameFunctions
 
 	void PatchRecoil( bool bNoRecoil );
 }
-
-
 
 #endif

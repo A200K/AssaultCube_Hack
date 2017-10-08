@@ -7,5 +7,4 @@
 extern DWORD dwDrawHudJmpBack;
 void gl_DrawHud( );
 
-
 #endif
