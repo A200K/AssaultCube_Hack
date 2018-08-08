@@ -1,5 +1,5 @@
 # AssaultCube_Hack
-Simple Hack for Assault Cube v1.2.0.2
+Simple Hack for Assault Cube v1.2.0.2 (Windows only)
 
 Credits: <br>
 ReClass 2011 (DrUnKeN ChEeTaH) <br>
